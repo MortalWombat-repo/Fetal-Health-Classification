@@ -1,0 +1,10 @@
+Flask
+gunicorn
+matplotlib
+numpy
+pandas
+requests
+scikit-learn
+seaborn
+jupyter
+nbconvert
