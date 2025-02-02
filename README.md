@@ -50,7 +50,7 @@ This dataset contains `2126` records of `22` features extracted from Cardiotocog
 | 19     | `histogram_median`                                      | Hist Median                                                 |
 | 20     | `histogram_variance`                                    | Hist variance                                               |
 | 21     | `histogram_tendency`                                    | Histogram trend                                             |
-| 22     | `fetal_health`                                          | Fetal health: 1 - Normal 2 - Suspect 3 - Pathological       |
+| 22     | `fetal_health`                                          | Fetal health: 1 - Normal ; 2 - Suspect ; 3 - Pathological   |
 
 # Description
 
