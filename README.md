@@ -54,9 +54,11 @@ This dataset contains `2126` records of `22` features extracted from Cardiotocog
 
 # Description
 
-The data was first loaded into a Jupyter notebook `1. Data preparation and data cleaning`. Upon inspection it was concluded that no cleaning was necessary as the data was very clean and organized, nor was there any need of standardizing column names and values, yet the code was included as a part of a streamlined solution that can be applied to other projects. In this notbook the most important step was temporarily converting a target variable from float to string
+The data was first loaded into a Jupyter notebook `1. Data preparation and data cleaning`. <br>
+Upon inspection it was concluded that no cleaning was necessary as the data was very clean and organized, nor was there any need of standardizing column names and values, yet the code was included as a part of a streamlined solution that can be applied to other projects. In this notbook the most important step was temporarily converting a target variable from float to string
 
-Next step was running the notebook `2. EDA, feature importance analysis`. In this notebooks certain visualizations were made to get a feel for the data to be worked with as well as feature importance analysis in form of viewing the correlations of features with each other as well as seing if any particular feature stood out. Techniques like mutual information, risk rate and correlation matrix were used. 
+Next step was running the notebook `2. EDA, feature importance analysis`. <br>
+In this notebooks certain visualizations were made to get a feel for the data to be worked with as well as feature importance analysis in form of viewing the correlations of features with each other as well as seing if any particular feature stood out. Techniques like mutual information, risk rate and correlation matrix were used. 
 
 Finally a notebook `3. Model selection process` is ran to test the dummy models before they are converted to a script in form of a `train.py`.
 
@@ -69,7 +71,7 @@ The script `predict.py` uses Flask and gunicorn to serve the unpickled model on 
 
 **Important!**
 
-This project was developed on WSL(Windows subsystem for Linux)
+This project was developed on WSL (Windows subsystem for Linux) <br>
 It is recommended if on Windows to install it using a [guide](https://www.howtogeek.com/744328/how-to-install-the-windows-subsystem-for-linux-on-windows-11/) or running it on UNIX/Linux environment.
 
 1. cd into your desired folder and download the project
