@@ -84,7 +84,7 @@ cd Fetal-Health-Classification
 ```
 docker build -t fetal_health .
 ```
-4. run the container with the exposed port (very important don't forget the p flag)
+4. run the container with the exposed port (very important, don't forget the p flag)
 ```
 docker run -p 9696:9696 fetal_health
 ```
