@@ -74,19 +74,19 @@ It is recommended if on Windows to install it using a [guide](https://www.howtog
 
 1. cd into your desired folder and download the project
 ```
-git clone https://github.com/MortalWombat-repo/Employee-churn-prediction.git
+git clone https://github.com/MortalWombat-repo/Fetal-Health-Classification.git
 ```
 2. cd into the folder
 ```
-cd Employee-churn-prediction
+cd Fetal-Health-Classification
 ```
 3. build docker container
 ```
-docker build -t notebook .
+docker build -t fetal_health .
 ```
 4. run the container with the exposed port (very important don't forget the p flag)
 ```
-docker run -p 9696:9696 notebook
+docker run -p 9696:9696 fetal_health
 ```
 5. open a new terminal tab and send a post request
 ```
@@ -97,7 +97,7 @@ python predict-test.py
 7. exit the directory and delete the project
 ```
 cd ..
-rm -rf Employee-churn-prediction
+rm -rf Fetal-Health-Classification
 ```
 
 # Demo
