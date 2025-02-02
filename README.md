@@ -19,7 +19,7 @@ Quoute from the dataset page:
 > fetal movements, uterine contractions and more.
 
 # Data
-This dataset contains `2126` records of features extracted from Cardiotocogram exams, which were then classified by three expert obstetritians into `3 classes`:
+This dataset contains `2126` records of `22` features extracted from Cardiotocogram exams, which were then classified by three expert obstetritians into `3 classes`:
 
 * `Normal` (represented by target variable 1)
 * `Suspect` (represented by target variable 2)
@@ -54,13 +54,14 @@ This dataset contains `2126` records of features extracted from Cardiotocogram e
 
 # Description
 
-The data was first loaded into a Jupyter notebook `1. Data preparation and data cleaning` for data processing and cleanup. The most important step of this stage was turning the target variable into a binary format from a string.
+The data was first loaded into a Jupyter notebook `1. Data preparation and data cleaning`. Upon inspection it was concluded that no cleaning was necessary as the data was very clean and organized, nor was there any need of standardizing column names and values, yet the code was included as a part of a streamlined solution that can be applied to other projects. In this notbook the most important step was temporarily converting a target variable from float to string
 
-Next step was running the notebook `2. EDA, feature importance analysis`. In this notebooks certain visualizations were made to get a feel for the data to be worked with as well as feature importance analysis in form of viewing the correlations of features with each other as well as seing if any particular feature stood out.
+Next step was running the notebook `2. EDA, feature importance analysis`. In this notebooks certain visualizations were made to get a feel for the data to be worked with as well as feature importance analysis in form of viewing the correlations of features with each other as well as seing if any particular feature stood out. Techniques like mutual information, risk rate and correlation matrix were used. 
 
 Finally a notebook `3. Model selection process` is ran to test the dummy models before they are converted to a script in form of a `train.py`.
 
-The script `train.py` incorporates the tested model and creates a model from vectorized data using Linear Regression from `scikit-learn` which is then tested for accuracy using the AUC (area under the curve) method. The model is then pickled.
+The script `train.py` incorporates the tested model and creates a model from tabular data (no need for label encoding or dict vectorization, as all features are numeric) using the Decision Tree module from `scikit-learn`, a non-parametric supervised learning algorithm traditionally used for regression and classification tasks.
+In this case the aim of the model was to predict the target variable of three classes using the multi-classification method. The model is then pickled for later use.
 
 The script `predict.py` uses Flask and gunicorn to serve the model on local host network to which `predict-test.py` sends a POST request using JSON serialized data to make the prediction to determine will the employee with specified characteristics churn or not.
 
