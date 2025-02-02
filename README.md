@@ -63,7 +63,7 @@ Finally a notebook `3. Model selection process` is ran to test the dummy models 
 The script `train.py` incorporates the tested model and creates a model from tabular data (no need for label encoding or dict vectorization, as all features are numeric) using the Decision Tree module from `scikit-learn`, a non-parametric supervised learning algorithm traditionally used for regression and classification tasks.
 In this case the aim of the model was to predict the target variable of three classes using the multi-classification method. The model is then pickled for later use.
 
-The script `predict.py` uses Flask and gunicorn to serve the model on local host network to which `predict-test.py` sends a POST request using JSON serialized data to make the prediction to determine will the employee with specified characteristics churn or not.
+The script `predict.py` uses Flask and gunicorn to serve the unpickled model on local host network to which `predict-test.py` sends a POST request using JSON serialized data to make the prediction of a class the data falls under.
 
 # Running the project
 
