@@ -54,7 +54,7 @@ This dataset contains `2126` records of `22` features extracted from Cardiotocog
 
 # Description
 
-**Important**
+**Important** <br>
 Only the notebook titled `0. Transforming data.ipynb` is ran. <br>
 It standizes the target variable to make it more easier on the model.
 Other notebooks are provided as an illustration of what was done and the conclusions that led to the final model.
