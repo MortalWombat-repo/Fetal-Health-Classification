@@ -15,12 +15,14 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy the Jupyter notebooks from the 'notebooks' folder to the container
 COPY notebooks/ ./notebooks/
 
-COPY employee_churn_data.csv .
+COPY fetal_health.csv .
 
 COPY run_notebooks.py .
 
 # Execute the Jupyter notebooks using nbconvert (to ensure preprocessing or data preparation is complete)
 RUN python run_notebooks.py
+
+COPY transformed_fetal_health.csv .
 
 # Copy the training script to the container
 COPY train.py .
@@ -36,3 +38,4 @@ EXPOSE 9696
 
 # Set the entry point to start Flask with Gunicorn
 ENTRYPOINT ["gunicorn", "--bind=0.0.0.0:9696", "predict:app"]
+
