@@ -54,6 +54,10 @@ This dataset contains `2126` records of `22` features extracted from Cardiotocog
 
 # Description
 
+**Important**
+Only the notebook titled `0. Transforming data.ipynb` is ran. It standizes the target variable to make it more easier on the model.
+Other notebooks are provided as an illustration of what was done and the conclusions that led to the final model.
+
 The data was first loaded into a Jupyter notebook `1. Data preparation and data cleaning`. <br>
 Upon inspection it was concluded that no cleaning was necessary as the data was very clean and organized, nor was there any need of standardizing column names and values, yet the code was included as a part of a streamlined solution that can be applied to other projects. In this notbook the most important step was temporarily converting a target variable from float to string
 
