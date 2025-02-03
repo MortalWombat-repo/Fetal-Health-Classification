@@ -46,7 +46,7 @@ X_test = df_test
 # spliting into categories not needed, all data is numerical
 
 print("Unique values in fetal_health:", df['fetal_health'].unique())
-'''
+
 # training
 def train(X_train, y_train):
     model = DecisionTreeClassifier( class_weight='balanced', 
@@ -67,4 +67,3 @@ with open(output_file, 'wb') as f_out:
     pickle.dump(model, f_out)
 
 print(f'the model is saved to {output_file}')
-'''
