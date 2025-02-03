@@ -120,7 +120,7 @@ Kaggle dataset author:
 
 # Demo
 
-[Video Link](https://imgur.com/a/AkYw3lF)
+[Video Link](https://i.imgur.com/nzzHFIR.gif)
 
 ![Demonstration](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWh6ZGRzdmEyYmV5d3R5azllN290NHB0Zm1qbm91dmRsNjY5eWQ2ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ib2tg2iTQxt5XgB6MT/giphy.gif)
 
