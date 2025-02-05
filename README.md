@@ -95,10 +95,21 @@ docker build -t fetal_health .
 ```
 docker run -p 9696:9696 fetal_health
 ```
+
+## Run in terminal
+
 5. open a new terminal tab and send a post request
 ```
 python predict-test.py
 ```
+
+## Run in Streamlit
+
+5. send a post request from a streamlit frontend
+```
+streamlit run predict-test.py
+```
+
 6. when done return to the window with the server and CTRL/Command + C to stop the server
 
 7. exit the directory and delete the project
