@@ -128,7 +128,7 @@ For viewing fullscreen click on the link. <br>
 # Streamlit demo
 
 For viewing fullscreen click on the link. <br>
-[Video Link](https://i.imgur.com/nzzHFIR.gif)
+[Video Link](https://imgur.com/a/FOCponv)
 
 ![Demonstration](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2d2eTI4eHYxOWoxNjY5d2ZyMnZodzQ2NHF4OTlwNHJvcHl0bDhzNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/w4EpRAGfwU78y5GVPc/giphy.gif)
 
