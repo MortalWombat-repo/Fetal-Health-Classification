@@ -118,17 +118,6 @@ cd ..
 rm -rf Fetal-Health-Classification
 ```
 
-# Acknowledgements
-
-Source authors:
-> Ayres-de-Campos, D., Bernardes, J., Garrido, A., Marques-de-Sá, J. and Pereira-Leite, L. (2000), Sisporto 2.0: A program for automated analysis of cardiotocograms. J. Matern. 
-> Fetal Med., 9: 311-318. https://doi.org/10.1002/1520-6661(200009/10)9:5<311::AID-MFM12>3.0.CO;2-9 <br>
-[Link](https://onlinelibrary.wiley.com/doi/10.1002/1520-6661(200009/10)9:5%3C311::AID-MFM12%3E3.0.CO;2-9)
-
-Kaggle dataset author:
-> andrewmvd (Larxel) <br>
-[Link](https://www.kaggle.com/datasets/andrewmvd/fetal-health-classification)
-
 # Terminal Demo
 
 For viewing fullscreen click on the link. <br>
@@ -143,3 +132,13 @@ For viewing fullscreen click on the link. <br>
 
 ![Demonstration](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWh6ZGRzdmEyYmV5d3R5azllN290NHB0Zm1qbm91dmRsNjY5eWQ2ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ib2tg2iTQxt5XgB6MT/giphy.gif)
 
+# Acknowledgements
+
+Source authors:
+> Ayres-de-Campos, D., Bernardes, J., Garrido, A., Marques-de-Sá, J. and Pereira-Leite, L. (2000), Sisporto 2.0: A program for automated analysis of cardiotocograms. J. Matern. 
+> Fetal Med., 9: 311-318. https://doi.org/10.1002/1520-6661(200009/10)9:5<311::AID-MFM12>3.0.CO;2-9 <br>
+[Link](https://onlinelibrary.wiley.com/doi/10.1002/1520-6661(200009/10)9:5%3C311::AID-MFM12%3E3.0.CO;2-9)
+
+Kaggle dataset author:
+> andrewmvd (Larxel) <br>
+[Link](https://www.kaggle.com/datasets/andrewmvd/fetal-health-classification)
