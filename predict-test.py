@@ -356,7 +356,7 @@ df = df.reset_index(drop=True)
 # Display as a dataframe (interactive and sortable) and hide the index
 st.dataframe(df, use_container_width=True, hide_index=True)
 
-# """App Logic"""
+# ""Streamlit Logic"""
 if st.button("Predict Fetal Health"):
     response = requests.post(url, json=fetus).json()
     #print(response)
@@ -394,3 +394,23 @@ if st.button("Predict Fetal Health"):
             st.markdown(f"#### Immediate care is needed!")
             #st.write("")
             st.image("img/fetus_red.png")
+
+
+# """Terminal logic"""
+response = requests.post(url, json=fetus).json()
+
+fetal_health = response["class"]
+
+match fetal_health:
+    case 1:
+        health_status = "Healthy"
+        print(f"The fetus health is rated to be {health_status} 😊")
+        print("The baby is healthy, no action needed.")
+    case 2:
+        health_status = "Suspect"
+        print(f"The fetus health is rated to be {health_status} 😐")
+        print("The baby is suspected of having a medical problem, further monitoring advised.")
+    case 3:
+        health_status = "Pathological"
+        print(f"The fetus health is rated to be {health_status} 😔")
+        print("Immediate care is needed!")
