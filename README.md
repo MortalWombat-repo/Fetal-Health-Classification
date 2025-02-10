@@ -132,7 +132,7 @@ For viewing fullscreen click on the link. <br>
 For viewing fullscreen click on the link. <br>
 [Video Link](https://imgur.com/a/FOCponv)
 
-![Demonstration](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2d2eTI4eHYxOWoxNjY5d2ZyMnZodzQ2NHF4OTlwNHJvcHl0bDhzNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/w4EpRAGfwU78y5GVPc/giphy.gif)
+![Demonstration](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzl4NTh2b2pqY2xoZHBmNWthb3p4Y3BobzVyY2IwcGxwMHh2OTdrYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pQQBlSNDMld3NvB8D9/giphy.gif)
 
 # Acknowledgements
 
