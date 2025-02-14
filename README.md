@@ -1,6 +1,5 @@
 # Fetal-Health-Classification
 
-This is the 2nd capstone project of [Machine learning Zoomcamp](https://github.com/DataTalksClub/machine-learning-zoomcamp) course.
 
 # About the data
 
