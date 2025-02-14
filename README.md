@@ -1,6 +1,5 @@
 # Fetal-Health-Classification
 
-
 # About the data
 
 The dataset is from Kaggle called [Fetal Health Classification](https://www.kaggle.com/datasets/andrewmvd/fetal-health-classification)
