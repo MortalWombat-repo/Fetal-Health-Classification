@@ -2,7 +2,7 @@
 
 # About the data
 
-The dataset is from Kaggle called [Fetal Health Classification](https://www.kaggle.com/datasets/andrewmvd/fetal-health-classification)
+The dataset is from Kaggle called [Fetal Health Classification](https://www.kaggle.com/datasets/andrewmvd/fetal-health-classification), which was cleaned and visualized.
 
 This dataset is provided with the aim to prevent child and maternal mortality.
 
