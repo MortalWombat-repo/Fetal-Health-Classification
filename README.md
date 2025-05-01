@@ -1,5 +1,9 @@
 # Fetal-Health-Classification
 
+## Live demo
+
+[Streamlit app link](https://fetal-health-classification-complete-app-integration-nh9p5ucy3.streamlit.app/)
+
 # About the data
 
 The dataset is from Kaggle called [Fetal Health Classification](https://www.kaggle.com/datasets/andrewmvd/fetal-health-classification), which was cleaned and visualized.
